@@ -41,6 +41,10 @@ $mainFontSize: 30px;
 @import "../template/theme";
 // ---------------------------------------------
 
+body {
+  background: url(../../images/bg.jpg) repeat;
+}
+
 .reveal .progress span {
   background: $green;
 }
@@ -66,6 +70,6 @@ $mainFontSize: 30px;
   border-radius: 3px;
 }
 
-.emphasis {
+strong {
   color: $red;
 }
