@@ -43,7 +43,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Introduction to <span class="emphasis">HTML + CSS</span> Workshop</h1>
+					<h1>Introduction to <strong>HTML + CSS</strong> Workshop</h1>
 					<p>
 						<small>Presented by Josh Medeski <a href="http://twitter.com/joshmedeski">@joshmedeski</a></small>
 					</p>
@@ -63,11 +63,17 @@
 					<h2>Workshop Agenda</h2>
 					<p>Here's is what I want you to learn in today's workshop:</p>
 					<ul>
-						<li class="fragment">How to <strong class="emphasis">STRUCTURE</strong> a web page using <strong class="emphasis">HTML</strong></li>
-						<li class="fragment">How to <strong class="emphasis">STYLE</strong> a web page using <strong class="emphasis">CSS</strong></li>
-						<li class="fragment">How to <strong class="emphasis">MANIPULATE</strong> a web page using the <strong class="emphasis"> INSPECTOR</strong></li>
-						<li class="fragment">How to <strong class="emphasis">BUILD</strong> a web page <em>quickly</em> with <strong class="emphasis">FRAMEWORKS</strong></li>
+						<li class="fragment">How to <strong>STRUCTURE</strong> a web page using <strong>HTML</strong></li>
+						<li class="fragment">How to <strong>STYLE</strong> a web page using <strong>CSS</strong></li>
+						<li class="fragment">How to <strong>MANIPULATE</strong> a web page using the <strong> INSPECTOR</strong></li>
+						<li class="fragment">How to <strong>BUILD</strong> a web page <em>quickly</em> with <strong>FRAMEWORKS</strong></li>
 					</ul>
+				</section>
+
+				<section>
+					<img src="images/hand-raise.gif" alt="Guy raising his hand">
+					<h2>Please Ask Questions</h2>
+					<p>We will be covering a lot of material, so please ask for help if you need help with anything or need clarification.</p>
 				</section>
 
 				<!-- Tools -->
@@ -82,15 +88,15 @@
 						<a href="http://www.google.com/chrome/" target="_blank">http://www.google.com/chrome/</a>
 					</section>
 					<section>
-						<img src="images/codepen.jpg" alt="Codepen">
-						<h2>Codepen</h2>
-						<a href="http://codepen.io/" target="_blank">http://codepen.io/</a>
-					</section>
-					<section>
 						<img src="images/sublime-text.jpg" alt="Sublime Text">
 						<h2>Sublime Text</h2>
 						<a href="http://www.sublimetext.com/" target="_blank">http://www.sublimetext.com/</a>
 					</section>
+<!-- 					<section>
+						<img src="images/codepen.jpg" alt="Codepen">
+						<h2>Codepen</h2>
+						<a href="http://codepen.io/" target="_blank">http://codepen.io/</a>
+					</section> -->
 				</section>
 
 				<!-- HTML -->
@@ -99,6 +105,67 @@
 						<img src="images/building.gif" alt="animated picture of an old building be built">
 						<h1>HTML</h1>
 					</section>
+					<section>
+					<h2>HTML <strong>Structures</strong> the Web</h2>
+						<p>Just like a newspaper, the web also needs structure (titles, columns, images, etc...).</p>
+						<img src="images/html-newspaper.jpg" alt="Picture of a newspaper and website showing the same content">
+					</section>
+					<section>
+					<h2>Sample of HTML</h2>
+					<img src="images/html-sample.jpg" alt="HTML code sample">
+					</section>
+					<section>
+						<h2>Sample of HTML</h2>
+						<img src="images/html-preview.jpg" alt="Laptop displaying HTML sample">
+					</section>
+					<section>
+						<h2>Elements</h2>
+						<p>HTML uses <strong>elements</strong> to describe the structure of pages</p>
+						<img src="images/html-code.jpg" alt="">
+						<p>An element is composed of a opening tag, content, and a closing tag.</p>
+					</section>
+					<section>
+						<h2>Opening Tag</h2>
+						<img src="images/html-opening-tag.jpg" alt="">
+						<p>The character(s) defines the tags purpose.</p>
+					</section>
+					<section>
+						<h2>Closing Tag</h2>
+						<img src="images/html-closing-tag.jpg" alt="">
+					</section>
+					<section>
+						<h2>Tag Attributes</h2>
+						<img src="images/html-tag-attribute.jpg" alt="">
+						<p>Attributes add extra information to an element. They always appear with the opening tag.</p>
+					</section>
+					<section>
+						<h2>HTML, HEAD, TITLE, BODY</h2>
+						<p>Every web page is structured with the following elements.</p>
+						<img src="images/html-head-title-body.jpg" alt="">
+					</section>
+					<section>
+						<h2><strong>Practice:</strong> Your First Web Page</h2>
+					</section>
+					<section>
+						<p>Open <strong>Sublime Text</strong> and re-create the following content:</p>
+						<img src="images/html-head-title-body.jpg" alt="">
+						<p>When you are done, open the file with <strong>Google Chrome</strong></p>
+					</section>
+					<section>
+						<img src="images/html-congrats.gif" alt="">
+						<h3><strong>Congrats</strong> gold stars for everyone!</h3>
+					</section>
+					<section>
+						<h2><strong>HTML</strong> Summary</h2>
+						<ul>
+							<li class="fragment">HTML creates <strong>structure</strong> for the web (think newspapers)</li>
+							<li class="fragment">HTML is made up of <strong>elements</strong></li>
+							<li class="fragment">HTML <em>elements</em> have an <strong>opening</strong> and <strong>closing tags</strong></li>
+							<li class="fragment">HTML <em>tags</em> can include <strong>attributes</strong></li>
+							<li class="fragment">HTML is made up of <strong>html, head, title, and body</strong> elements</li>
+						</ul>
+					</section>
+
 				</section>
 
 				<!-- CSS -->
@@ -142,11 +209,11 @@
 
 		<div class="share-reveal">
 
-			<span class="share-reveal__twitter">
+			<strong class="share-reveal__twitter">
 				<a href="https://twitter.com/joshmedeski" class="twitter-follow-button" data-show-count="false">Follow @JoshMedeski</a>
 				<a href="https://twitter.com/MakerSquare" class="twitter-follow-button" data-show-count="false">Follow @MakerSquare</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</span>
+			</strong>
 
 			<a href="http://www.makersquare.com/part-time" class="share-reveal__button">Learn more about our class</a>
 		</div>

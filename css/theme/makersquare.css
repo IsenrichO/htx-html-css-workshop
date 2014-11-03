@@ -135,6 +135,9 @@ body {
 .reveal .slide-number {
   color: #2380e2; }
 
+body {
+  background: url(../../images/bg.jpg) repeat; }
+
 .reveal .progress span {
   background: #82b300; }
 
@@ -157,7 +160,7 @@ body {
   text-decoration: none;
   border-radius: 3px; }
 
-.emphasis {
+strong {
   color: #c2185b; }
 
 /*# sourceMappingURL=makersquare.css.map */
